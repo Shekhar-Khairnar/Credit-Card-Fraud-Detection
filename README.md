@@ -2,7 +2,7 @@
 
 
 ## Project Intro/Objective
-The purpose of this project is predict whether the transaction is normal or fraud. 
+The purpose of this project is to predict whether the transaction is normal or fraud. 
 
 ### Methods Used
 * Statistics
