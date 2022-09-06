@@ -32,5 +32,7 @@ Here we cannot completely depend on accuracy alone because its imbalanced datase
 - Recall Score 
 - F-beta Score
 
-## In this case importance is given to the precision score. It depends on use case, whether to give importance to precision or recall and if we want to consider both then we can use f-beta score with b = 1. 
-With b = 0.5 importance will be given to precision considering both recall and precision and with b = 2 importance is given to recall considering both precision and recall.
+## In this case importance is given to the precision score (reducing FP i.e. reducing the number of Normal transactions classified as Fraud). It depends on the use case, whether to give importance to precision or recall and if we want to consider both then we can use the f-beta score with b = 1. With b = 0.5 importance will be given to precision considering both recall and precision and with b = 2 importance is given to recall considering both precision and recall. 
+
+## Discussing the results with the domain expert is important as he will decide or direct on to which metric is more important.
+
