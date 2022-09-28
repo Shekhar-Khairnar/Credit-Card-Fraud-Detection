@@ -42,6 +42,6 @@ Here we cannot completely depend on accuracy alone because its imbalanced datase
 
 - Discussing the results with the domain expert is important as he will decide or direct on to which metric is more important(recall or precision).
 
-If results from both the files are compared we can see in the imbalanced notebook the model is somewhat biased to predicting the majority of the class i.e. normal. In the next file we cna see that the results of the best model are impressive where ADASYN is used to deal with the Imbalanced class.
+If results from both the files are compared we can see in the imbalanced notebook the model is somewhat biased to predicting the majority of the class i.e. normal. In the next file we can see that the results of the best ML model are impressive where ADASYN is used to deal with the Imbalanced class.
 To study more about ADASYN [click here](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.ADASYN.html)
  
